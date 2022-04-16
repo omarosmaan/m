@@ -1,0 +1,61 @@
+.clock{
+    position: relative;
+    background: url(./clo.png);
+    background-size: 100%;
+    height: 480px;
+    width: 480px;
+    top: 100px;
+}
+div{
+position:absolute;
+transform-origin: bottom;
+}
+.hour{
+    height: 150px;
+    width: 10px;
+    background:#ffc145;
+    right: 49%;
+    top: 20.5%;
+    border: solid rgb(4, 4, 4);
+}
+ .min{
+    height: 204px;
+    width: 5px;
+    background: #ffc145;
+    right: 49.6%;
+    top: 9.5%;
+    border: solid rgb(4, 4,4);
+}
+
+.sec{
+    height: 204px;
+    width: 2px;
+    background:#0a2342;
+    right: 49.6%;
+    top: 9.5%;
+    border: solid #ffc145;
+}
+
+.dep{
+    height: 40px;
+    width: 40px;
+    background: #ffc145;
+    right: 45%;
+    top: 49%;
+    border: solid rgb(4, 4,4);
+    
+    border-radius: 50%;
+}
+
+h1{
+    color: white;
+    border :5px white double;
+    height: 50px;
+    width: 231px;
+     position: relative;
+     top: 95px;
+    left: 643px;
+    }
+    body{
+        background: url(./88.jfif)
+    }
